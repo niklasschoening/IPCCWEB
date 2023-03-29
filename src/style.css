@@ -61,3 +61,30 @@ p1 h2 {
 p1 a {
     font-size: 20;
 }
+
+ca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+c1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgba(78, 177, 68);
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.73);
+}
+
+c2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color: rgba(78, 177, 68);
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.73);
+}

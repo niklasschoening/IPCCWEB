@@ -7,3 +7,20 @@
     <a href="Impressum.html">Impressum</a>
 </header>
 
+<ca>
+    <c1>
+        <label for "Amount">Anzahl der Module: </label>
+        <input type="text" id="amount" name="Amount"> <br>
+    </c1>
+    <c2>
+        <label for "Kwp">Kwp der Module: </label>
+        <input type="text" id="kwp" name="KWP"> <br>
+    </c2>
+</ca>
+
+<script>
+    let amount = document.getElementById('amount').value;
+    let kwp = document.getElementById('textbox_id').value;
+    let prod = kwp*1000*amount;
+    alert(prod);
+</script>
