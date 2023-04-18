@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="src/style.css">
+
+<header>
+    <a href="Home.html">Home</a>
+    <a href="Rechner.html">Solarrechner</a>
+    <a href="LGS.html">Exemplar LGS</a>
+    <a href="Impressum.html">Impressum</a>
+</header>
+
+<page>
+    <a>Deine jährliche Produktion entspricht <span id="value">val1</span> kw/h pro Jahr</a>
+
+    <script>
+        val1 = sessionStorage.getItem('val1');
+        document.getElementById("value").innerHTML = val1;
+    </script>
+</page>

@@ -18,6 +18,7 @@ header a{
     padding: 10px;
     background-color: rgba(78, 177, 68);
     box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.73);
+    border-radius: 6px;
 }
 
 header a:hover {
@@ -25,26 +26,27 @@ header a:hover {
 }
 
 
-div {
+page {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin: 20px;
 }
 
-div h1 {
+page h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 15px;
 }
 
-p1 {
+.paragraph {
     margin: 15px;
 
     background-color: rgba(78, 177, 68);
     padding: 20px;
     color: white;
     box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.73);
+    border-radius: 6px;
 
     display: flex;
     flex-direction: column;
@@ -52,13 +54,26 @@ p1 {
     align-items: center;
 }
 
-p1 h2 {
+.paragraph h2 {
     font-size: 50;
     margin: 0px;
 }
 
-p1 a {
+.paragraph c {
     font-size: 20;
+}
+
+.paragraph2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.paragraph3 {
+    box-shadow: 0px 0px 0px;
+    align-items: top;
+    justify-content:start;
 }
 
 page {
@@ -80,10 +95,17 @@ page a {
     box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.73);
 }
 
-button {
-    color: white;
-    background-color: rgba(78, 177, 68);
+b button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
     border: 0px;
+    padding: 20px;
+    background-color: rgba(78, 177, 68);
+    color: white;
 }
 
 button:hover {
