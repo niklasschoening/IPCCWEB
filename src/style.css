@@ -1,5 +1,7 @@
 body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
+    font-size: 15;
 }
 
 header {
@@ -11,7 +13,6 @@ header {
 }
 
 header a{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 30px;
@@ -35,7 +36,6 @@ page {
 }
 
 page h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 15px;
 }
 
@@ -96,8 +96,7 @@ page a {
 }
 
 b button {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-size: 15;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 6px;
