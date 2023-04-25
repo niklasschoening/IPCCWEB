@@ -12,11 +12,24 @@
         var amount = document.getElementById('amount').value;
         var kwp = document.getElementById('kwp').value;
         val1 = amount*kwp*1000;
+        
+        if (amount != 0 && kwp != 0 && !(kwp.includes(',')) && !(amount.includes(',')))
+        {
+            sessionStorage.setItem("val1",val1);
 
-        sessionStorage.setItem("val1",val1);
-
-        location.assign('Result.html');
+            location.assign('Result.html');
+        }
+        else
+        {
+            alert("Daten ungültig");
+        }
     }
+        document.addEventListener('keydown', function(event) {
+            if(event.keyCode == 13) {
+                calc();
+            }
+        });
+    
 </script>
 
 <page>
